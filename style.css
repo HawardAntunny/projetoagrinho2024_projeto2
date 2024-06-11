@@ -49,7 +49,7 @@ body {
 .estudante{
     padding: 24px 0;
 }
-.estudante-imagem{
+.imagens_dos_espaços{
     width: 120px;
 }
 
@@ -68,7 +68,7 @@ body {
     padding: 50px 0;
 }
 
-.estudante-todos{
+.imagens_espaços{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
