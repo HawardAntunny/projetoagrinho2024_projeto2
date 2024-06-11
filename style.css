@@ -17,12 +17,13 @@ body {
 }
 
 .cabecalho-imagem {
-    width: 30%;
+    width: 25%; /* Ajuste o tamanho conforme necessário */
 }
 
 .cabecalho-texto {
     text-align: right;
-    max-width: 70%;
+    max-width: 65%; /* Ajuste a largura conforme necessário */
+    padding-top: 20px; /* Adicione um espaçamento superior */
 }
 
 .cabecalho-texto h1 {
