@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Adiciona esta linha para melhor controle do layout */
 }
 
 body {
@@ -16,70 +17,67 @@ body {
     padding: 24px 0;
 }
 
-.cabecalho-imagem{
+.cabecalho-imagem {
     width: 50%;
 }
 
-.cabecalho-lista-item{
+.cabecalho-lista-item {
     display: inline-block;
     margin: 0 16px;
     font-size: 16px;
 }
 
-
-
-.escola{
-    background-image: linear-gradient(#eee8e8,#24c0eb);
-    color:white;
+.escola {
+    background-image: linear-gradient(#eee8e8, #24c0eb);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
 }
 
-.escola-div-conteudo{
+.escola-div-conteudo {
     width: 35%;
 }
 
-
-.escola-titulo{
+.escola-titulo {
     padding: 24px 0;
 }
 
-.estudante{
+.estudante {
     padding: 24px 0;
 }
-.imagens_dos_espaços{
+
+.imagens_dos_espaços {
     width: 300px;
+    display: block; /* Garante que as imagens sejam elementos de bloco */
+    margin: 0 auto; /* Centraliza as imagens dentro das células do grid */
 }
 
-.estudante-icone{
+.estudante-icone {
     width: 24px;
     padding: 4px 8px;
 }
 
-.imagens_espaços{
-    text-align: center;
+.imagens_espaços {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define três colunas */
+    gap: 20px; /* Espaçamento entre os itens */
+    justify-items: center; /* Centraliza os itens no eixo horizontal */
     padding: 16px 0;
 }
 
-.tituloseção{
+.tituloseção {
     text-align: center;
     padding: 50px 0;
 }
 
-.imagens_espaços{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-}
-
-.rodape{
+.rodape {
     background-color: black;
     text-align: center;
 }
 
-.rodape-imagem{
+.rodape-imagem {
     height: 60px;
     padding: 12px 0;
-   
 }
