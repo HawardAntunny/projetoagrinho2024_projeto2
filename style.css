@@ -17,21 +17,28 @@ body {
 }
 
 .cabecalho-imagem {
-    width: 40%;
+    width: 20%;
 }
 
 .cabecalho-texto {
-    text-align: center;
+    text-align: right;
     max-width: 70%;
 }
 
 .cabecalho-texto h1 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 8px;
+}
+
+.cabecalho-texto h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
 }
 
 .cabecalho-texto p {
     font-size: 16px;
+    text-align: justify;
+    margin-bottom: 8px;
 }
 
 .escola {
