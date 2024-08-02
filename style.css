@@ -49,6 +49,12 @@ body {
     margin: 0 auto;
 }
 
+.imagens_plantio {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
 .estudante-icone {
     width: 24px;
     padding: 4px 8px;
